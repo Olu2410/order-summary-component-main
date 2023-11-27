@@ -1,0 +1,80 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("./images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    width: 28rem;
+    height: 35rem;
+    margin-top: 60px;
+    margin-bottom: 60px; 
+    border-radius: 15px;
+}
+.hero{
+    width: 28rem;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.text p{
+    display: flex;
+    justify-items: center; 
+    text-align: center; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.plan{
+    display: flex;
+    background-color: azure;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Red Hat Display', sans-serif;
+}  
+#change{
+    justify-items: right;
+}
+.music{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#p{
+    background-color: rgb(15, 15, 226);
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    width: 15rem;
+    height: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+#cancel{
+    font-family: 'Red Hat Display', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+
+
